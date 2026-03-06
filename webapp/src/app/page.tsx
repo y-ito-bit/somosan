@@ -167,7 +167,31 @@ export default function Home() {
       </div>
 
       <footer style={{ marginTop: '60px', padding: '40px 0', borderTop: '4px solid #333', textAlign: 'center', fontSize: '0.9rem', color: '#333', fontWeight: 800 }}>
-        © 2026 金曜日のソモさん情報局
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
+          <span>この番組は、京都の大学生を応援する交流スペース「学生PLACE+」が制作しています。</span>
+          <a
+            href="https://www.gakusei-place.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="neo-card"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '8px 20px',
+              fontSize: '0.85rem',
+              fontWeight: 800,
+              color: '#333',
+              textDecoration: 'none',
+              background: '#FFD600',
+              border: '3px solid #333',
+              cursor: 'pointer',
+            }}
+          >
+            学生PLACE+ のサイトへ
+            <span style={{ fontSize: '1rem' }}>&#8599;</span>
+          </a>
+        </div>
       </footer>
     </main>
   );
