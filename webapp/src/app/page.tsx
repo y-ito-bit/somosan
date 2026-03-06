@@ -65,7 +65,8 @@ export default function Home() {
             left: '50%',
             transform: 'translate(-50%, 25%)', /* ロゴ自身の高さの25%分だけ枠からはみ出させる */
             width: '60%', /* 背景画像に対して常に一定の割合の幅を維持し、相対的な拡大を防ぐ */
-            zIndex: 10
+            zIndex: 10,
+            pointerEvents: 'none' as const
           }}>
             <img
               src="/somosan_logo.png"
@@ -88,7 +89,7 @@ export default function Home() {
             width: '90%',
             maxWidth: '400px'
           }}>
-            お悩み募集中！！
+            お悩み募集中！！（相談フォームへ）
           </a>
 
           {/* 4. 番組概要 */}
