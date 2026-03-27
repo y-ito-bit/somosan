@@ -112,9 +112,11 @@ export default function Home() {
             gap: '20px',
             marginBottom: '10px'
           }}>
-            <a href="https://x.com/GakuseiPlace" target="_blank" rel="noopener noreferrer" className="neo-button-3d btn-black" style={{ flex: '1', maxWidth: '180px', padding: '14px 20px', borderColor: '#fff' }}>
-              𝕏
-            </a>
+            {false && (
+              <a href="https://x.com/GakuseiPlace" target="_blank" rel="noopener noreferrer" className="neo-button-3d btn-black" style={{ flex: '1', maxWidth: '180px', padding: '14px 20px', borderColor: '#fff' }}>
+                𝕏
+              </a>
+            )}
             <a href="https://www.youtube.com/@place8352" target="_blank" rel="noopener noreferrer" className="neo-button-3d btn-red" style={{ flex: '1', maxWidth: '180px', padding: '14px 20px' }}>
               YouTube
             </a>
