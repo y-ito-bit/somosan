@@ -83,14 +83,6 @@ export default function Home() {
         <div style={{ padding: '50px 20px 30px', backgroundColor: 'var(--primary-color)' }}>
           {/* タイトルテキストはロゴ画像に置き換わったため削除 */}
 
-          {/* 3. お悩み募集ボタン */}
-          <a href="https://forms.gle/ZQcRCmsWrod1jUC88" target="_blank" rel="noopener noreferrer" className="neo-button-3d btn-red" style={{
-            marginBottom: '40px',
-            width: '90%',
-            maxWidth: '400px'
-          }}>
-            お悩み募集中！！（相談フォームへ）
-          </a>
 
           {/* 4. 番組概要 */}
           <div className="neo-card" style={{
